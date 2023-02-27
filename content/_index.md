@@ -1,6 +1,6 @@
 ---
 title: HOME
-description: Welcome to this sample project
+description: Welcome to the personal website of Yi-Long Sun
 images: ["/images/sample.jpg"]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: PORTFOLIO
-description: 'Portfolio Section'
+description: Get more details of Yi-Long Sun
 ---
 
 My Journey
