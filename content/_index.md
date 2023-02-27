@@ -4,10 +4,16 @@ description: Welcome to this sample project
 images: ["/images/sample.jpg"]
 ---
 
-Hey,
+<h1 align="left">Hi 👋, I'm Alan</h1>
+<h3 align="left">A master's student in National Tsing Hua University</h3>
+<br>
 
-I'm Yi-Long Sun, a Master Student in National Tsing Hua University.
+- 👨‍💻 Check out my personal [website](https://yilongsun.github.io/)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus error cumque quisquam necessitatibus libero dolore porro, quo at molestiae modi voluptatibus iusto alias corporis. Accusamus, debitis, atque. Maiores, distinctio, neque.
+- 📝 I'm interested in Computer Vision, Data Science, Machine Learning, Deep Learning
+
+- 📫 Feel free to reach me **alan.ikliong.sun@gmail.com**
+
+<br>
 
 [Get to know me better](/about "Get to know me better")
