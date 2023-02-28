@@ -1,8 +1,4 @@
 # Blog
 
-<h3 align="left">Hi 👋, This is my personal website</h3>
-<br>
-
-- 👨‍💻 Check out my personal [website](https://yilongsun.github.io/)
-
-- 📫 Feel free to reach me **alan.ikliong.sun@gmail.com**
+## Computers
+* [Linux 常用指令](https://yilongsun.github.io/post/computers/linux_%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/)

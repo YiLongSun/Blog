@@ -192,7 +192,23 @@ $ unzip dir.zip -d dir
 $ chmod u=rwx,g=rx,o=r XXX
 ```
 
-|     | 擁有者 (user) | 所屬群組 (group) | 其他使用者 (other) |
-| --- | --- | --- | --- |
-| d | rwx | r-x | r-x |
-| 代表是一個目錄 | 擁有讀、寫、執行權限 | 擁有讀、執行權限 | 擁有讀、執行權限 |
+<table style="border:3px black dashed;">
+  <tr>
+    <td></td>
+    <td>擁有者 (user)</td>
+    <td>所屬群組 (group)</td>
+    <td>其他使用者 (other)</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>rwx</td>
+    <td>r-x</td>
+    <td>r-x</td>
+  </tr>
+  <tr>
+    <td>代表是一個目錄</td>
+    <td>擁有讀、寫、執行權限</td>
+    <td>擁有讀、執行權限</td>
+    <td>擁有讀、執行權限</td>
+  </tr>
+</table>
