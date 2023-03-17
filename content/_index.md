@@ -8,7 +8,7 @@ images: ["/images/sample.jpg"]
 <h3 align="left">A master's student in National Tsing Hua University</h3>
 <br>
 
-- 👨‍💻 Check out my personal [website](https://yilongsun.github.io/)
+- 👨‍💻 Learn more about me [here](https://yilongsun.github.io/about/)
 
 - 📝 I'm interested in Computer Vision, Data Science, Machine Learning, Deep Learning
 
