@@ -1,6 +1,6 @@
 ---
 title: Linux 常用指令
-description: Basic Ideas of C++
+description: Basic Ideas of Linux
 date: "2023-02-27"
 publishDate: "2023-02-27"
 ---
