@@ -8,57 +8,65 @@ publishDate: "2023-02-27"
 Linux shell 常用指令
 
 <!--more-->
-## 關機
+# 關機
 
 ```bash
 $ sudo shutdown -h now
 ```
+<br>
 
-## 重開機
+# 重開機
 
 ```bash
 $ sudo reboot
 ```
+<br>
 
-## 安裝套件
+# 安裝套件
 
 ```bash
 $ sudo apt-get install XXX
 ```
+<br>
 
-## 更新套件資訊
+# 更新套件資訊
 
 ```bash
 $ sudo apt-get update
 ```
+<br>
 
-## 更新軟體至最新版本
+# 更新軟體至最新版本
 
 ```bash
 $ sudo apt-get upgrade
 ```
+<br>
 
-## 移除套件
+# 移除套件
 
 ```bash
 $ sudo apt-get --purge autoremove XXX
 ```
+<br>
 
-## 線上說明手冊
+# 線上說明手冊
 
 查看 ls 指令如何使用
 
 ```bash
 $ man ls
 ```
+<br>
 
-## 查看當前路徑
+# 查看當前路徑
 
 ```bash
 $ pwd
 ```
+<br>
 
-## 列出檔案
+# 列出檔案
 
 列出檔案詳細資訊
 
@@ -77,16 +85,18 @@ $ ls -h
 ```bash
 $ ls -a
 ```
+<br>
 
-## 建立空檔案
+# 建立空檔案
 
 建立 python 檔案
 
 ```bash
 $ touch test.py
 ```
+<br>
 
-## 切換路徑
+# 切換路徑
 
 切換至上一層路徑
 
@@ -99,8 +109,9 @@ $ cd ..
 ```bash
 $ cd XXX
 ```
+<br>
 
-## 刪除
+# 刪除
 
 刪除檔案
 
@@ -119,8 +130,9 @@ $ rm -rf XXX
 ```bash
 $ rm -f *.py
 ```
+<br>
 
-## 移動
+# 移動
 
 複製檔案（複製 test.py 到 /test/ 路徑）
 
@@ -139,8 +151,9 @@ $ cp -r source/ destination/
 ```bash
 $ cp -r --preserve=all source/ destination/
 ```
+<br>
 
-## 壓縮
+# 壓縮
 
 .tar 壓縮
 
@@ -183,8 +196,9 @@ $ zip -r dir.zip dir
 ```bash
 $ unzip dir.zip -d dir
 ```
+<br>
 
-## 權限
+# 權限
 
 修改檔案權限
 

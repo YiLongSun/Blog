@@ -25,17 +25,19 @@ int main()
 
 輸出：
 
-```cpp
+```markdown
 Hello, my name is Alan !
 ```
 
-## 前處理指令（preprocessor directives）
+### 前處理指令（preprocessor directives）
 
 將掌管「輸入輸出資料流」的標頭檔（header file）匯入程式內
 
-## Using 宣告（using declaration）
+### Using 宣告（using declaration）
 
 說明「cout」及「endl」是名稱空間 std 中的標準元件
+
+<br>
 
 # 整數 & 浮點數
 
@@ -69,7 +71,7 @@ int main()
 
 輸出：
 
-```cpp
+```markdown
 48U : 48
 75UL : 75
 372L : 372
@@ -83,6 +85,8 @@ int main()
 4.26e+12L : 4.26e+12
 4.26E-12 : 4.26e-12
 ```
+
+<br>
 
 # 變數 & 常數
 
@@ -108,17 +112,19 @@ int main()
 
 輸出：
 
-```cpp
+```markdown
 var_1、var_2、var_3 的平均為 17.9667
 ```
 
-## 變數宣告
+### 變數宣告
 
 變數（variables）經過宣告（declaration）後，就會依指定資料型態配置記憶體
 
-## 常數宣告
+### 常數宣告
 
 宣告常數的關鍵字為 const，常數（constants）可避免重複輸入，以減少輸入的錯誤
+
+<br>
 
 # 算術運算
 
@@ -132,7 +138,7 @@ var_1、var_2、var_3 的平均為 17.9667
 | ++ | 累加 |
 | — | 累減 |
 
-## 整數除法
+### 整數除法
 
 1/2   得到 0
 
@@ -140,13 +146,13 @@ var_1、var_2、var_3 的平均為 17.9667
 
 15/2 得到 7
 
-## 累加累減
+### 累加累減
 
 M = i++ * 5 相當於 M = i * 5; i++;
 
-M = ++i * 5 相當於 i++; M = i*5
+M = ++i * 5 相當於 i++; M = i*5;
 
-## 指派運算子（assignment operators）
+### 指派運算子（assignment operators）
 
 | 敘述 | 具有相同結果的敘述 |
 | --- | --- |
@@ -155,10 +161,13 @@ M = ++i * 5 相當於 i++; M = i*5
 | x = x / y | x /= y |
 | x = x % y | x %= y |
 
-## 資料型態轉換
+### 資料型態轉換
 
-- （資料型態）變數名稱 ⇒  x = float (a) + 3.8f
-- 資料型態（變數名稱） ⇒  x = (float) a + 3.8f
+（資料型態）變數名稱 ⇒  x = float (a) + 3.8f
+
+資料型態（變數名稱） ⇒  x = (float) a + 3.8f
+
+<br>
 
 # sizeof() 運算子
 
@@ -191,7 +200,7 @@ int main()
 
 輸出：
 
-```cpp
+```markdown
 Size of int is : 4 bytes
 Size of short is : 2 bytes
 Size of unsigned is : 4 bytes
@@ -205,6 +214,8 @@ Size of 3.8f is : 4 bytes
 Size of x is : 4 bytes
 Size of (3.8f + x) is : 4 bytes
 ```
+
+<br>
 
 # 標準數學函數
 
@@ -237,7 +248,7 @@ int main()
 
 輸出：
 
-```cpp
+```markdown
 Result of abs(x) is 5
 Result of exp(x) is 148.413
 Result of pow(x, 3) is 125
@@ -251,6 +262,8 @@ Result of cos(x) is 0.283662
 Result of tan(x) is -3.38052
 ```
 
+<br>
+
 # 關係運算
 
 | 關係運算子 | 意義 |
@@ -262,6 +275,8 @@ Result of tan(x) is -3.38052
 | == | 相等 |
 | != | 不相等 |
 
+<br>
+
 # 邏輯運算
 
 | 邏輯運算子 | 邏輯意涵 |
@@ -269,6 +284,8 @@ Result of tan(x) is -3.38052
 | && | AND |
 | || | OR |
 | ! | NOT |
+
+<br>
 
 # Bool 資料型態
 
@@ -300,7 +317,7 @@ int main()
 
 輸出：
 
-```cpp
+```markdown
 b1 = 1
 b2 = 0
 b3 = 1
@@ -309,17 +326,19 @@ Size of bool is 1
 Size of b1 is   1
 ```
 
+<br>
+
 # 字元字串
 
-## 字元
+### 字元
 
 char CH = ‘a’
 
-## 字串
+### 字串
 
 “ABCDE”
 
-## 逃離序列（escape sequences）
+### 逃離序列（escape sequences）
 
 | escape sequence | 意義 |
 | --- | --- |
@@ -333,6 +352,8 @@ char CH = ‘a’
 | \” | 雙引號 “ |
 | \0 | 字串結束符號 |
 
+<br>
+
 # 位元處理運算
 
 | 位元處理運算子 | 意義 |
@@ -344,7 +365,7 @@ char CH = ‘a’
 | ^ | XOR |
 | | | OR |
 
-## AND 運算
+### AND 運算
 
 | 表示式 | 計算結果 |
 | --- | --- |
@@ -352,7 +373,7 @@ char CH = ‘a’
 | b | 01100010 |
 | a & b | 01000000 |
 
-## XOR 運算
+### XOR 運算
 
 | 表示式 | 計算結果 |
 | --- | --- |
@@ -360,7 +381,7 @@ char CH = ‘a’
 | b | 01100010 |
 | a ^ b | 00100011 |
 
-## OR 運算
+### OR 運算
 
 | 表示式 | 計算結果 |
 | --- | --- |
@@ -368,21 +389,21 @@ char CH = ‘a’
 | b | 01100010 |
 | a | b | 01100011 |
 
-## 補數運算
+### 補數運算
 
 | 表示式 | 計算結果 |
 | --- | --- |
 | a | 01000001 |
 | ~a | 10111110 |
 
-## 右移運算
+### 右移運算
 
 | 表示式 | 計算結果 |
 | --- | --- |
 | a | 10011010 |
 | a >> 2 | 00100110 |
 
-## 左移運算
+### 左移運算
 
 | 表示式 | 計算結果 |
 | --- | --- |
