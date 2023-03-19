@@ -206,7 +206,7 @@ $ unzip dir.zip -d dir
 $ chmod u=rwx,g=rx,o=r XXX
 ```
 
-<table style="border:3px black dashed;">
+<table>
   <tr>
     <td></td>
     <td>擁有者 (user)</td>

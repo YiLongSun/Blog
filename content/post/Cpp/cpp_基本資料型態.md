@@ -19,6 +19,7 @@ using namespace std; // using declaration
 int main()
 {
 	cout << "Hello, my name is Alan !" << endl;
+
 	return 0;
 }
 ```
@@ -50,20 +51,32 @@ using namespace std;
 int main()
 {
 	// integer values
-	cout << " 48U : "  << 48U  << endl; // unsigned int
-	cout << " 75UL : " << 75UL << endl; // unsigned long
-	cout << " 372L : " << 372L << endl; // long
-	cout << " 012 : "  << 012  << endl; // 12 in Octal
-	cout << " 0x12 : " << 0x12 << endl; // 12 in Hexadecimal
+	// unsigned int
+	cout << " 48U : "  << 48U  << endl;
+	// unsigned long
+	cout << " 75UL : " << 75UL << endl;
+	// long
+	cout << " 372L : " << 372L << endl;
+	// 12 in Octal
+	cout << " 012 : "  << 012  << endl;
+	// 12 in Hexadecimal
+	cout << " 0x12 : " << 0x12 << endl;
 
 	//  floating point numbers
-	cout << " 4.7 : "       << 4.7       << endl; // double
-	cout << " 48.0F : "     << 48.0F     << endl; // float
-	cout << " 48.0f : "     << 48.0f     << endl; // float
-	cout << " 3.75L : "     << 3.75L     << endl; // long double
-	cout << " 4.26e12 : "   << 4.26e12   << endl; // double
-	cout << " 4.26e+12L : " << 4.26e+12L << endl; // long double
-	cout << " 4.26E-12 : "  << 4.26E-12  << endl; // double
+	// double
+	cout << " 4.7 : "       << 4.7       << endl;
+	// float
+	cout << " 48.0F : "     << 48.0F     << endl;
+	// float
+	cout << " 48.0f : "     << 48.0f     << endl;
+	// long double
+	cout << " 3.75L : "     << 3.75L     << endl;
+	// double
+	cout << " 4.26e12 : "   << 4.26e12   << endl;
+	// long double
+	cout << " 4.26e+12L : " << 4.26e+12L << endl;
+	// double
+	cout << " 4.26E-12 : "  << 4.26E-12  << endl;
 
 	return 0;
 }
@@ -104,7 +117,8 @@ int main()
 
 	average = (var_1 + var_2 + var_3) / number;
 
-	cout << "var_1、var_2、var_3 的平均為 " << average << endl;
+	cout << "var_1、var_2、var_3 的平均為 " 
+	<< average << endl;
 
 	return 0;
 }
@@ -181,18 +195,30 @@ int main()
 {
 	int x = 5;
 
-	cout << "Size of int is : "        << sizeof(int)      << " bytes" << endl;
-	cout << "Size of short is : "      << sizeof(short)    << " bytes" << endl;
-	cout << "Size of unsigned is : "   << sizeof(unsigned) << " bytes" << endl;
-	cout << "Size of long is : "       << sizeof(long)     << " bytes" << endl;
-	cout << "Size of float is : "      << sizeof(float)    << " bytes" << endl;
-	cout << "Size of double is : "     << sizeof(double)   << " bytes" << endl;
-	cout << "Size of char is : "       << sizeof(char)     << " bytes" << endl;
-	cout << "Size of 3.8 is : "        << sizeof(3.8)      << " bytes" << endl;
-	cout << "Size of (3.8 + x) is : "  << sizeof(3.8 + x)  << " bytes" << endl;
-	cout << "Size of 3.8f is : "       << sizeof(3.8f)     << " bytes" << endl;
-	cout << "Size of x is : "          << sizeof(x)        << " bytes" << endl;
-	cout << "Size of (3.8f + x) is : " << sizeof(3.8f + x) << " bytes" << endl;
+	cout << "Size of int is : "        << sizeof(int)      
+	<< " bytes" << endl;
+	cout << "Size of short is : "      << sizeof(short)    
+	<< " bytes" << endl;
+	cout << "Size of unsigned is : "   << sizeof(unsigned) 
+	<< " bytes" << endl;
+	cout << "Size of long is : "       << sizeof(long)     
+	<< " bytes" << endl;
+	cout << "Size of float is : "      << sizeof(float)    
+	<< " bytes" << endl;
+	cout << "Size of double is : "     << sizeof(double)   
+	<< " bytes" << endl;
+	cout << "Size of char is : "       << sizeof(char)     
+	<< " bytes" << endl;
+	cout << "Size of 3.8 is : "        << sizeof(3.8)      
+	<< " bytes" << endl;
+	cout << "Size of (3.8 + x) is : "  << sizeof(3.8 + x)  
+	<< " bytes" << endl;
+	cout << "Size of 3.8f is : "       << sizeof(3.8f)     
+	<< " bytes" << endl;
+	cout << "Size of x is : "          << sizeof(x)        
+	<< " bytes" << endl;
+	cout << "Size of (3.8f + x) is : " << sizeof(3.8f + x) 
+	<< " bytes" << endl;
 
 	return 0;
 }
@@ -230,17 +256,28 @@ int main()
 {
 	double x = 5;
 
-	cout << "Result of abs(x) is "    << abs(x) << endl;
-	cout << "Result of exp(x) is "    << exp(x) << endl;
-	cout << "Result of pow(x, 3) is " << pow(x, 3) << endl;
-	cout << "Result of sqrt(x) is "   << sqrt(x) << endl;
-	cout << "Result of log(x) is "    << log(x) << endl;
-	cout << "Result of log10(x) is "  << log10(x) << endl;
-	cout << "Result of ceil(x) is "   << ceil(x) << endl;  // 大於等於 x 最小整數
-	cout << "Result of floor(x) is "  << floor(x) << endl; // 小於等於 x 最大整數
-	cout << "Result of sin(x) is "    << sin(x) << endl;
-	cout << "Result of cos(x) is "    << cos(x) << endl;
-	cout << "Result of tan(x) is "    << tan(x) << endl;
+	cout << "Result of abs(x) is "    << abs(x) 
+	<< endl;
+	cout << "Result of exp(x) is "    << exp(x) 
+	<< endl;
+	cout << "Result of pow(x, 3) is " << pow(x, 3) 
+	<< endl;
+	cout << "Result of sqrt(x) is "   << sqrt(x) 
+	<< endl;
+	cout << "Result of log(x) is "    << log(x) 
+	<< endl;
+	cout << "Result of log10(x) is "  << log10(x) 
+	<< endl;
+	cout << "Result of ceil(x) is "   << ceil(x) 
+	<< endl;  // 大於等於 x 最小整數
+	cout << "Result of floor(x) is "  << floor(x) 
+	<< endl; // 小於等於 x 最大整數
+	cout << "Result of sin(x) is "    << sin(x) 
+	<< endl;
+	cout << "Result of cos(x) is "    << cos(x) 
+	<< endl;
+	cout << "Result of tan(x) is "    << tan(x) 
+	<< endl;
 
 	return 0;
 }
