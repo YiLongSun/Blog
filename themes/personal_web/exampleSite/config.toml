@@ -1,8 +1,8 @@
-baseURL = "https://yilongsun.github.io/"
+baseURL = "https://example.com/"
 languageCode = "en-us"
-title = "Y.L.Sun"
-theme = "personal_web"
-copyright="© Yi-Long Sun"
+title = "Edna West"
+theme = "personal-web"
+copyright="© Edna West"
 googleAnalytics = ""
 enableEmoji=true
 enableRobotsTXT=true
@@ -10,8 +10,8 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, I'm Yi-Long Sun :wave:"
-  sub = "A Master's Student in National Tsing Hua University"
+  main = "Hi, I'm Edna :wave:"
+  sub = "I'm a Web Developer and Entrepreneur"
 
 [params.main]
   latestPublishHeader = "My Latest Project"
@@ -48,11 +48,19 @@ pygmentsCodeFences=true
   customCSS = ""
 
 [params.social]
-  github = "https://github.com/YiLongSun"
-  linkedin = "https://www.linkedin.com/in/yi-long-sun-16ba05228/"
+  github = "https://github.com/"
+  twitter = "https://twitter.com/"
+  linkedin = "https://www.linkedin.com/in/"
+  medium = "https://medium.com/"
+  codepen = "https://codepen.io/"
+  facebook = "https://www.facebook.com/"
+  youtube = "https://www.youtube.com/"
+  instagram = "https://www.instagram.com/"
+  gitlab = "https://gitlab.com/"
+  keybase = "https://keybase.io/"
 
 [params.contact]
-  email = "alan.ikliong.sun@gmail.com"
+  email = ""
   text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 
