@@ -1,8 +1,8 @@
 ---
 title: C++ 基本資料型態
 description: Basic Data Types of C++
-date: "2023-03-18"
-publishDate: "2023-03-18"
+date: "2023-05-08"
+publishDate: "2023-05-08"
 ---
 
 算術運算、關係運算、邏輯運算、位元處理運算
